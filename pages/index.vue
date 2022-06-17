@@ -1,5 +1,5 @@
 <script setup>
-    import {Icon} from '@iconify/vue'
+    import { Icon } from '@iconify/vue'
 
     useHead({
         title: 'Aparelhos de Estética e Fisioterapia em até 60x - Rentalmed',
