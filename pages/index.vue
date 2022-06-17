@@ -8,14 +8,21 @@
         charset: 'utf-8',
         meta: [
             { name: 'description', content: 'Loja especializada em aparelhos para estética e fisioterapia. Só na RentalMed você encontra as melhores marcas em até 60X.' },
+            { name: 'keywords', content: 'aparelhos esteticos, aparelhos para estetica, equipamentos esteticos, equipamentos para estetica, aparelhos para fisioterapia, equipamentos para fisioterapia, paixao pela estetica, aparelhos para saude, fisioterapia, assistencia tecnica, locacao equipamentos esteticos, eletroterapia, criolipolise, microagulhamento, corrente russa, ibramed, htm, cursos estetica, cursos de estetica, neurodyn, manthus, ozonioterapia' },
             { property: 'og:locale', content: 'pt_BR' },
             { property: 'og:type', content: 'website' },
             { property: 'og:title', content: 'Aparelhos de Estética e Fisioterapia em até 60x - Rentalmed' },
             { property: 'og:description', content: 'Loja especializada em aparelhos para estética e fisioterapia. Só na RentalMed você encontra as melhores marcas em até 60X.' },
+            { property: 'og:url', content: 'https://rentalmed.com.br/' },
+            { property: 'og:site_name', content: 'Rentalmed' },
+
         ],
         bodyAttrs: {
             class: 'test'
-        }
+        },
+        link: [
+            { rel: 'icon', type: 'image/x-icon', href: './assets/images/favicon.png' }
+        ]
     })
 
 </script>
