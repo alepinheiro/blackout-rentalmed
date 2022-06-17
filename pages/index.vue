@@ -52,7 +52,7 @@
             </h1>
 
             <p>
-                A Rentalmed que você coonhece nunca mais será a mesma.
+                A Rentalmed que você conhece nunca mais será a mesma.
             </p>
 
             <p class="text-pink-500">
@@ -68,9 +68,12 @@
 
                 <button
                     v-on:click="sendToWhatsApp"
-                    class="bg-purple-600 hover:bg-purple-800 px-4 py-2 rounded uppercase w-fit mx-auto"
+                    class="bg-purple-600 hover:bg-purple-800 px-4 py-2 rounded uppercase w-fit mx-auto flex flex-row items-center"
                 >
-                    Fale com nossos atendentes
+                    <div class="w-4 h-4 mr-2">
+                        <Icon icon="akar-icons:whatsapp-fill" height="100%"/>
+                    </div>
+                    <span>Fale com nossos atendentes</span>
                 </button>
             </div>
 
